@@ -1,0 +1,17 @@
+name: MirrorMobs
+main: nu.nerd.mirrormobs.MirrorMobs
+description: Custom mobs using MirrorMirror
+version: ${project.version}
+depend: [MirrorMirror]
+
+commands:
+  mirrormobs:
+    usage: /mirrormobs [subcommand]
+    description: MirrorMobs plugin commands
+    permission: mirrormobs.command
+    permission-message: You don't have permission to do that.
+
+
+permissions:
+  mirrormobs.command:
+    description: MirrorMobs root command
