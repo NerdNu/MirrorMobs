@@ -23,6 +23,7 @@ public class DrCuddles extends CustomMob {
         ent.getAttribute(Attribute.GENERIC_MAX_HEALTH).setBaseValue(60D);
         ent.getAttribute(Attribute.GENERIC_MOVEMENT_SPEED).setBaseValue(0.4F);
         ent.setHealth(60D);
+        setCustomXP(300);
         return ent;
     }
 

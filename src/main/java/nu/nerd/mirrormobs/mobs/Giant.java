@@ -20,6 +20,7 @@ public class Giant extends CustomMob {
         LivingEntity ent = (LivingEntity) loc.getWorld().spawnEntity(loc, EntityType.GIANT);
         ent.getAttribute(Attribute.GENERIC_MOVEMENT_SPEED).setBaseValue(0.3F);
         ent.getAttribute(Attribute.GENERIC_FOLLOW_RANGE).setBaseValue(80); //twice default for zombies
+        setCustomXP(1000);
         return ent;
     }
 

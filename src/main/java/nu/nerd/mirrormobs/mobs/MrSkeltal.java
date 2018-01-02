@@ -28,6 +28,7 @@ public class MrSkeltal extends CustomMob {
         ent.getAttribute(Attribute.GENERIC_MOVEMENT_SPEED).setBaseValue(0.4F);
         ent.getAttribute(Attribute.GENERIC_ATTACK_DAMAGE).setBaseValue(3D);
         ent.setHealth(80D);
+        setCustomXP(400);
         addInventory(ent);
         return ent;
     }

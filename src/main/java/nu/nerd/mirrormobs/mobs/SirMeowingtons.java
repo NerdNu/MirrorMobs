@@ -29,6 +29,7 @@ public class SirMeowingtons extends CustomMob {
         ent.getAttribute(Attribute.GENERIC_MOVEMENT_SPEED).setBaseValue(0.4F);
         ent.getAttribute(Attribute.GENERIC_ATTACK_DAMAGE).setBaseValue(4.0D);
         ent.setHealth(200D);
+        setCustomXP(1000);
         addInventory(ent);
         return ent;
     }

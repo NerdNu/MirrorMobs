@@ -29,6 +29,7 @@ public class LordPuggleston extends CustomMob {
         ent.getAttribute(Attribute.GENERIC_MOVEMENT_SPEED).setBaseValue(0.7F);
         ent.getAttribute(Attribute.GENERIC_ATTACK_DAMAGE).setBaseValue(2D);
         addInventory(ent);
+        setCustomXP(250);
         return ent;
     }
 
