@@ -55,7 +55,7 @@ public class MirrorMobsListener implements Listener {
             return;
         }
 
-        if (random.nextFloat() <= plugin.CONFIG.SPAWN_CHANCE) {
+        if (random.nextDouble() > plugin.CONFIG.SPAWN_CHANCE) {
             return;
         }
 

@@ -15,6 +15,7 @@ public class Configuration {
     public Configuration(MirrorMobs plugin) {
         this.plugin = plugin;
         plugin.saveDefaultConfig();
+        reload();
     }
 
 
