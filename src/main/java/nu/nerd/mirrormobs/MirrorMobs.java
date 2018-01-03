@@ -13,11 +13,13 @@ public class MirrorMobs extends JavaPlugin {
 
 
     public static MirrorMobs instance;
+    public Configuration CONFIG;
     private Map<String, CustomMob> customMobs;
 
 
     public void onEnable() {
         MirrorMobs.instance = this;
+        CONFIG = new Configuration(this);
         registerCustomMobs();
         new MirrorMobsListener(this);
         new CommandHandler(this);

@@ -30,6 +30,7 @@ public class CommandHandler implements CommandExecutor {
                 sender.sendMessage(ChatColor.DARK_AQUA + "spawn, reload");
             }
             else if (args[0].equalsIgnoreCase("reload")) {
+                plugin.CONFIG.reload();
                 sender.sendMessage(ChatColor.DARK_AQUA + "MirrorMirror config reloaded.");
             }
             else if (args[0].equalsIgnoreCase("spawn")) {
