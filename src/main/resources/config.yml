@@ -1,5 +1,6 @@
 # Chance for a custom mob to spawn, expressed as 0.0-1.0
-# e.g. 0.01 is 1:1000
+# e.g. 0.01 is 1%
+# A value of 0.0 would turn off natural spawning.
 spawn_chance: 0.05
 
 # A list of all supported custom mob IDs that are allowed to spawn naturally
