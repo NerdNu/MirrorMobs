@@ -67,7 +67,7 @@ public class CommandHandler implements CommandExecutor {
                 sender.sendMessage(ChatColor.RED + "Malformed coordinate!");
             }
         } else {
-            sender.sendMessage(ChatColor.RED + "Usage: /mirrormirror spawn <id> or /mirrormirror spawn <id> <world> <x> <y> <z>");
+            sender.sendMessage(ChatColor.RED + "Usage: /mirrormobs spawn <id> or /mirrormirror spawn <id> <world> <x> <y> <z>");
         }
     }
 
